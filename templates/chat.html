@@ -1,0 +1,21 @@
+<h3>Welcome, {{ name }}</h3>
+<div id="chatbox">
+    <input type="text" id="userInput" placeholder="Ask a question...">
+    <button onclick="sendMessage()">Send</button>
+    <p id="botResponse"></p>
+</div>
+
+<script>
+function sendMessage() {
+    const message = document.getElementById("userInput").value;
+    fetch("/predict", {
+        method: "POST",
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({ message: message })
+    })
+    .then(res => res.json())
+    .then(data => {
+        document.getElementById("botResponse").innerText = data.answer;
+    });
+}
+</script>

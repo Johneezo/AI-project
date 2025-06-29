@@ -1,0 +1,220 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hey", "How are you", "Is anyone there?", "Hello", "Good day"],
+      "responses": ["Hey :-)", "Hello, thanks for visiting", "Hi there, what can I do for you?", "Hi there, how can I help?"]
+    },
+
+
+
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Good day",
+        "Hey",
+        "Is anyone there?",
+        "Greetings"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there, welcome to the Academic Affairs Helpdesk. What can I do for you?",
+        "Good day! Feel free to ask me anything about your academic concerns."
+      ]
+    },
+    {
+      "tag": "introduce_bot",
+      "patterns": [
+        "Who are you?",
+        "What can you do?",
+        "Are you a real person?",
+        "Tell me about yourself"
+      ],
+      "responses": [
+        "I'm your virtual assistant for Academic Affairs. I'm here to help with course issues, transcripts, registration, and more.",
+        "I’m a student support chatbot trained to answer common academic queries. How may I help you today?",
+        "I’m not a real person, but I’m smart enough to guide you with your academic-related questions!"
+      ]
+    },
+    {
+      "tag": "ready_to_help",
+      "patterns": [
+        "I need help",
+        "Can you help me?",
+        "I have a problem",
+        "I'm facing issues",
+        "Help me with something"
+      ],
+      "responses": [
+        "Sure, I'm here to help! Please describe your issue in detail.",
+        "Of course! Let me know what's going on and I’ll do my best to assist.",
+        "I'm ready to help. What academic issue are you facing?"
+      ]
+    },    
+
+
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+    },
+
+
+    {
+      "tag": "course_registration_issue",
+      "patterns": [
+        "I can't register for my course",
+        "Course not showing during registration",
+        "Having trouble registering for classes",
+        "Registration portal is not working"
+      ],
+      "responses": [
+        "Please make sure the course is available this academic year. If the issue continues, contact Academic Affairs with your student ID and course code.",
+        "Check if you meet the prerequisites. If yes, you can report this issue to the Academic Office directly.",
+        "Try clearing your browser cache or using another browser. If that doesn't work, Academic Affairs will assist you further."
+      ]
+    },
+
+
+    {
+      "tag": "missing_course",
+      "patterns": [
+        "One of my courses is missing",
+        "I can't find my course on the portal",
+        "Why is a course not appearing in my list?",
+        "Course disappeared from my registration"
+      ],
+      "responses": [
+        "Please share the course code and your student ID. The issue might be a system delay or course scheduling problem.",
+        "This could be a departmental update. You may need to visit the Academic Office for clarification.",
+        "It’s possible the course isn’t offered this Academic year. Contact your department for confirmation."
+      ]
+    },
+
+    {
+      "tag": "graduation_schedule",
+      "patterns": [
+        "When is the next graduation?",
+        "Graduation date?",
+        "I want to know the graduation schedule",
+        "Is graduation this year?"
+      ],
+      "responses": [
+        "The next graduation is expected around July. Official dates will be announced soon.",
+        "Graduation dates vary each year. Keep checking the Academic Office bulletin or your student portal for updates.",
+        "You can contact the Exams Office for precise details, especially if you're due to graduate."
+      ]
+    },
+
+
+    {
+      "tag": "exam_permission_requirements",
+      "patterns": [
+        "I want to write exams",
+        "How do I get permission to write exams?",
+        "What are the requirements to write examinations?",
+        "Help me get permission to sit for exams",
+        "What should I do to be allowed to write exams?",
+        "Steps to be allowed to write exams"
+      ],
+      "responses": [
+        "To get permission to write examinations, please follow these steps:\n1. Write a letter to request to be allowed to write exams.\n2. Pay K500 into the tuition fee account.\n3. Attach the registration form.\n4. Attach a statement from student finance.",
+        "You need to:\n1. Write a request letter.\n2. Pay K500 into the tuition fee account.\n3. Attach your registration form.\n4. Get and attach a statement from student finance.",
+        "Follow these steps to be allowed to write exams:\n- Write a letter requesting to write exams.\n- Pay K500 into the tuition account.\n- Attach your registration form and finance statement."
+      ]
+    },
+
+
+    {
+      "tag": "letter_of_completion",
+      "patterns": [
+        "How do I get a letter of completion?",
+        "I need a letter to show I've completed my studies",
+        "Can I request a letter of completion online?",
+        "Where can I get a completion letter?"
+      ],
+      "responses": [
+        "You can request a letter of completion through the student portal or by visiting Academic Affairs in person.",
+        "Make sure your account is cleared and results are finalized before making the request.",
+        "Letters of completion are usually issued within 3–5 working days after request."
+      ]
+    },
+    {
+      "tag": "transcript_request",
+      "patterns": [
+        "How do I request my transcript?",
+        "I need my academic transcript",
+        "Where can I get my transcript?",
+        "Transcript application process?"
+      ],
+      "responses": [
+        "Go to your student portal and use the ‘Transcript Request’ section. You’ll need your NRC and proof of clearance.",
+        "Transcripts are processed within 7 working days. You can pick it up or request it to be mailed.",
+        "Visit the Records Office with your details, or submit a transcript request online."
+      ]
+    },
+
+
+
+    {
+      "tag": "Interactions",
+      "patterns": ["i have questions", "i have a complaint", "can we talk", " "],
+      "responses": ["Sure, please feel free hope they are related to academics or examination section", "Go ahead especially complaints related to the academics and examination i will assist", "feel free but am only trained based on the academics and examination related complaints and queries."]
+    },
+
+
+
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "Academics",
+      "patterns": ["My program is not showing?", "What kinds of items are there?", "What do you sell?"],
+      "responses": ["well in that case did you change it? or this is the first time?", "We have coffee and tea"]
+    },
+    {
+      "tag": "payments",
+      "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Can I pay with Paypal?", "Are you cash only?"],
+      "responses": ["We accept VISA, Mastercard and Paypal", "We accept most major credit cards, and Paypal"]
+    },
+    {
+      "tag": "delivery",
+      "patterns": ["How long does delivery take?", "How long does shipping take?", "When do I get my delivery?"],
+      "responses": ["Delivery takes 2-4 days", "Shipping takes 2-4 days"]
+    },
+    {
+      "tag": "funny",
+      "patterns": ["Tell me a joke!", "Tell me something funny!", "Do you know a joke?"],
+      "responses": ["Why did the hipster burn his mouth? He drank the coffee before it was cool.", "What did the buffalo say when his son left for college? Bison."]
+    },
+    {
+      "tag": "admission_requirements",
+      "patterns": ["What are the admission requirements?", "What qualifications do I need to apply?", "Do I need Grade 12 results to apply?", "Who can apply to CBU?", "Do I qualify for admission?"],
+      "responses": ["To be eligible for admission to Copperbelt University, candidates must have attained a minimum of five (5) 'O' Levels with a Credit or better in English, Mathematics, and any other three subjects. Visit https://www.cbu.ac.zm/schoolsAndUnits/lusakacampus/frequently-asked-questions for more details."]
+    },
+    {
+      "tag": "application_deadline",
+      "patterns": ["When is the application deadline?", "What's the last day to apply?", "Are applications still open?", "Deadline for admission?", "Can I still apply?"],
+      "responses": ["The Copperbelt University invites applications for the Academic Year 2025/2026 commencing in November 2025. Check https://www.cbu.ac.zm for updates."]
+    },
+    {
+      "tag": "application_procedure",
+      "patterns": ["How do I apply to CBU?", "Where can I submit my application?", "Is there an online application portal?", "Steps to apply for admission?", "Application process at CBU?"],
+      "responses": ["You can apply online via the Copperbelt University Online Application System. Visit https://www.cbu.ac.zm/opus/applyNew to start your application."]
+    },
+    {
+      "tag": "programs_offered",
+      "patterns": ["What programs are available at CBU?", "Do you offer Computer Science?", "List of courses offered", "What can I study at CBU?", "Available degrees at CBU?"],
+      "responses": ["CBU offers a variety of programs across multiple schools, including Engineering, Natural Resources, Mathematics, Business, and more. View the full list at https://www.cbu.ac.zm/opus/moodle/course/index.php."]
+    },
+    {
+      "tag": "admission_status",
+      "patterns": ["How do I check my admission status?", "after applying now how do i check if iam admitted or not","Where can I track my application?", "Admission status portal", "Track my CBU application", "Was I accepted?"],
+      "responses": ["You can track your application status by visiting the CBU application tracking page at https://myecampus.cbu.ac.zm/applicants/track_applications."]
+    }
+  ]
+}
